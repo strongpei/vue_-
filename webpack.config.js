@@ -74,6 +74,8 @@ module.exports = {
     extensions:['.js','.vue','.json'],//可以省略的后缀名
     alias:{//路径别名(简写方式)
       'vue$':'vue/dist/vue.esm.js',//表示精准匹配from vue
+      '@':path.resolve(__dirname,'src'),
+      '@components':path.resolve(__dirname,'src/components')  
     }
   }
 }
